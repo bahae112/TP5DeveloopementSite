@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Commentaire</title>
+    <script>
+        function monage(age) {
+            if (age > 1 && age < 17) {
+                document.write("Vous n'êtes pas encore majeur.");
+            }
+            else if (age >= 18 && age < 49) {
+                document.write("Vous êtes majeur mais pas encore senior.");
+            }
+            else if (age >= 50 && age < 59) {
+                document.write("Vous êtes senior mais pas encore retraité.");
+            }
+            else if (age >= 60 && age <= 120) {
+                document.write("Vous êtes retraité, profitez de votre temps libre !");
+            }
+        }
+    </script>
+</head>
+<body>
+    <script>
+        var nombre = prompt("Entrez votre âge : ");
+        monage(nombre);
+    </script>
+</body>
+</html>

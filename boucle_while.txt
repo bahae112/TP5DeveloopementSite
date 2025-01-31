@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <title>while</title>
+    </head>
+    <body>
+        <script>
+            var n=0;
+            var x=0;
+            while(n<3){
+                n++;
+                x+=n;
+            }
+            document.write("n =",n,"<br/>","x =",x);
+        </script>
+    </body>
+</html>

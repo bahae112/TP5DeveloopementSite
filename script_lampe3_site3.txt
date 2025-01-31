@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>net</title>
+        <script>
+            function somme(n){
+                var sum=0;
+                var i=1;
+                while(i<n){
+                    sum+=i;
+                    document.write("pour i = ",i,"i ---> somme = ",sum,"<br/>");
+                    i++;
+                }
+                return sum;
+            }
+        </script>
+    </head>
+    <body>
+        <script>
+            var nombre = prompt(" somme jusqua ");
+            document.write("somme = " , somme(nombre),"<br/>");
+        </script>
+    </body>
+</html>

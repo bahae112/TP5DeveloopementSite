@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lampe</title>
+</head>
+<body>
+    <center>
+        <h1>Allumer la lampe</h1>
+        <p>JavaScript change les attributs des éléments HTML.</p>
+        <p>JavaScript change la source d'une image.</p>
+        <hr>
+        <img src="pic_bulboff.gif" id="lampeImage" onmouseover="mafonction()" onmouseout="mafonction2()">
+    </center>
+
+    <script>
+        function mafonction() {
+            var x = document.getElementById("lampeImage");
+            x.src = "pic_bulbon.gif";
+        }
+
+        function mafonction2() {
+            var y = document.getElementById("lampeImage");
+            y.src = "pic_bulboff.gif";
+        }
+    </script>
+</body>
+</html>
